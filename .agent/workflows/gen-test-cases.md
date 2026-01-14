@@ -6,7 +6,7 @@ description: 生成測試案例工作流
 
 STEP 1: 檢查專案底下是否建立 `doc/test` 資料夾，若無則建立
 
-STEP 2: 根據選擇範圍撰寫測試案例清單，撰寫格式請參考 `.agent/workflows/test/01_TEST_CASES.md`，並將發想的結果用 Markdown 格式寫入 `doc/test` 底下，完成後進行 Reivew，確認符合預期後再下一步
+STEP 2: 根據選擇範圍撰寫測試案例清單，撰寫格式請參考 `.agent/workflows/test/template.md`，並將發想的結果用 Markdown 格式寫入 `doc/test` 底下，完成後進行 Reivew 不要直接生成測試程式，確認符合預期後再下一步
 
 STEP 3: 參考上一步完成的 `doc/test` 撰寫測試程式，不同頁面需建立獨立檔案
 
@@ -17,4 +17,4 @@ STEP 3: 參考上一步完成的 `doc/test` 撰寫測試程式，不同頁面需
 
 STEP 4: 驗證測試程式，若結果符合預期，請去 doc/test 底下，將 Markdown 打勾
 
-STEP 5: 若測試不符預期，重複 Step 3–4，最多 5 次，仍失敗就討論原因
+STEP 5: 若測試不符預期，重複 STEP 3–4，最多 5 次，仍失敗就討論原因
